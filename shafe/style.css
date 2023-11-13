@@ -1,0 +1,118 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    border: 1px solid red;
+    max-width: 1200px;
+    margin: 0% auto;
+}
+.global-padding{
+    padding: 0% 10%;
+}
+#Logo{
+    color: rgb(255, 0, 191);
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul a:hover{
+    color: rgb(255, 0, 191);
+}
+.banner-container{
+    display: flex;
+    margin-top: 50px;
+}
+#title {
+    font-size: 44px;
+}
+#desc {
+    font-size: 18px;
+    color: gray;
+}
+.banner-title {
+    width: 50%;
+}
+.banner-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#button {
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    padding: 12px 25px;
+    background-color: #f7571d;
+    border: none;
+    color: white;
+}
+#button:hover{
+    color: #50f9ff;
+    background-color: #f6a182;
+    cursor:pointer;
+}
+/* main section :start */
+.main-section{
+    background-color: #8bdadd;
+    padding-top: 70px;
+}
+.recent-post-title-container{
+    display: flex;
+    justify-content: space-between;
+}
+.post-container{
+    display: flex;
+    gap: 20px;
+}
+.recent-container{
+    padding: 30px 50px;
+}
+.post-one{
+    background-color: white;
+    padding: 20px;
+    border-radius:20px;
+}
+.post-two{
+    background-color: white;
+    padding: 20px;
+    border-radius:20px;
+}
+.post-desc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.featured-container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-top: 20px;
+}
+
+.f-one{
+    display: flex;
+    gap: 15px;
+}
+footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#img{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
